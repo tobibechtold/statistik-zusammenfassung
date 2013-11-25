@@ -20,14 +20,37 @@
 \section{Bedingte Warscheinlichkeit}
 \section{Varianz und Erwartungswert}
 \section{Verteilungen}
-\subsection{Biomilalverteilung}
-% jannis
+\subsection{Binomialverteilung}
 Warscheinlichkeit:
-\newline $P(x=k) = \
-\subsection{Gleichverteilung}
-% jannis
+\newline $P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$
+\newline\newline Warscheinlichkeitsdichte:
+\newline $f(x) = \binom{n}{x} p^x(1-p)^{n-x}$
+\newline\newline Erwartungswert:
+\newline $\mu = E(x) = n * p$
+\newline\newline Standartabweichung:
+Wo kommt das q her?
+\newline $\sigma^2 = V(x)= n * p * q$
 \subsection{Poissionverteilung}
-% jannis
+Mittelwert:
+\newline $\mu = n * p$
+\newline\newline Warscheinlichkeit:
+\newline $P(x=k) = \frac{\mu^k} {k!} e^{-\mu}$
+\newline\newline Warscheinlichkeitsdichte:
+\newline $f(x) = \frac{\mu^x} {x!} e^{-\mu}$
+\newline\newline Erwartungswert:
+\newline $\mu = E(x) = n * p$
+\newline\newline Standartabweichung:
+\newline $\sigma^2 = V(x)= n * p = \mu $
+\subsection{Gleichverteilung}
+Warscheinlichkeitsdichte:
+\newline $f(x) = \begin {cases}
+  \frac{1} {b-a}, & \text {für } a\le x \le b \\
+  0, & \text{sonst}
+\end{cases} $
+\newline\newline Erwartungswert:
+\newline $ \mu = E(x) = \frac { a + b } {2}$
+\newline\newline Standartabweichung:
+\newline $\sigma^2 = V(x)= \frac {(a + b)^2 } {12} $
 \subsection{Normalverteilung}
 \subsection{$\chi^2-Verteilung$}
 \subsection{T-Verteilung}
