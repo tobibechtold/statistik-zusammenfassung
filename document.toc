@@ -9,7 +9,9 @@
 \contentsline {subsection}{\numberline {5.1}Binomialverteilung}{2}
 \contentsline {subsection}{\numberline {5.2}Poissionverteilung}{3}
 \contentsline {subsection}{\numberline {5.3}Gleichverteilung}{3}
-\contentsline {subsection}{\numberline {5.4}Normalverteilung}{4}
+\contentsline {subsection}{\numberline {5.4}Normalverteilung}{3}
+\contentsline {subsubsection}{\numberline {5.4.1}Allgemein}{3}
+\contentsline {subsubsection}{\numberline {5.4.2}Standardnormalverteilung}{4}
 \contentsline {subsection}{\numberline {5.5}$\chi ^2-Verteilung$}{4}
 \contentsline {subsection}{\numberline {5.6}T-Verteilung}{4}
 \contentsline {section}{\numberline {6}Carakteristische Funktion}{4}

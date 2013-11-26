@@ -22,36 +22,76 @@
 \section{Verteilungen}
 \subsection{Binomialverteilung}
 Warscheinlichkeit:
+
 \newline $P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$
 \newline\newline Warscheinlichkeitsdichte:
-\newline $f(x) = \binom{n}{x} p^x(1-p)^{n-x}$
+
+$f(x) = \binom{n}{x} p^x(1-p)^{n-x}$
 \newline\newline Erwartungswert:
-\newline $\mu = E(x) = n * p$
+
+$\mu = E(x) = n * p$
 \newline\newline Standartabweichung:
 Wo kommt das q her?
-\newline $\sigma^2 = V(x)= n * p * q$
+
+$\sigma^2 = V(x)= n * p * q$
 \subsection{Poissionverteilung}
 Mittelwert:
-\newline $\mu = n * p$
+
+$\mu = n * p$
 \newline\newline Warscheinlichkeit:
-\newline $P(x=k) = \frac{\mu^k} {k!} e^{-\mu}$
+
+$P(x=k) = \frac{\mu^k} {k!} e^{-\mu}$
 \newline\newline Warscheinlichkeitsdichte:
-\newline $f(x) = \frac{\mu^x} {x!} e^{-\mu}$
+
+$f(x) = \frac{\mu^x} {x!} e^{-\mu}$
 \newline\newline Erwartungswert:
-\newline $\mu = E(x) = n * p$
+
+$\mu = E(x) = n * p$
 \newline\newline Standartabweichung:
-\newline $\sigma^2 = V(x)= n * p = \mu $
+
+$\sigma^2 = V(x)= n * p = \mu $
 \subsection{Gleichverteilung}
 Warscheinlichkeitsdichte:
-\newline $f(x) = \begin {cases}
+
+$f(x) = \begin {cases}
   \frac{1} {b-a}, & \text {für } a\le x \le b \\
   0, & \text{sonst}
 \end{cases} $
 \newline\newline Erwartungswert:
-\newline $ \mu = E(x) = \frac { a + b } {2}$
+
+$ \mu = E(x) = \frac { a + b } {2}$
 \newline\newline Standartabweichung:
-\newline $\sigma^2 = V(x)= \frac {(a + b)^2 } {12} $
+
+$\sigma^2 = V(x)= \frac {(a + b)^2 } {12} $
 \subsection{Normalverteilung}
+
+\subsubsection{Allgemein}
+Warscheinlichkeitsdichte: 
+
+$f(x) = \frac{1} {\sigma \sqrt{2\pi}} e^{(-\frac{1}{2}(\frac{x-\mu}{\sigma})^2)}$
+\newline\newline Erwartungswert:
+\newline Der Erwartugswert kann durch ableiten errechnet werden.
+
+$f'(x) = -\frac{x-\mu} {\sigma^2} f(x)$
+$\mu$ erhält man wenn man f'(x) = 0 setzt.
+\newline\newline Standartabweichung:
+\newline Die Standartabweichung erhält man durch 2 maliges ableiten.
+
+
+$f''(x) = \frac{1}{\sigma^2} (\frac{1}{\sigma^2} (x-\mu)^2 - 1) f(x)$
+
+
+$f''(x) = 0 $ liefert $ x = \mu \pm \sigma$
+
+\subsubsection{Standardnormalverteilung}
+Für die Standardnormalverteilung gilt:
+
+
+$\mu = 0$
+
+
+$\sigma = \pm 1$
+
 \subsection{$\chi^2-Verteilung$}
 \subsection{T-Verteilung}
 \section{Carakteristische Funktion}
