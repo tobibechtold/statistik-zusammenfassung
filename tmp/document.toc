@@ -1,11 +1,11 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Descriptive Statistik}{2}
-\contentsline {subsection}{\numberline {1.1}Absolute H\IeC {\"a}ufigkeit}{2}
+\contentsline {section}{\numberline {1}Descriptive Statistik}{3}
+\contentsline {subsection}{\numberline {1.1}Absolute H\IeC {\"a}ufigkeit}{3}
 \contentsline {subsection}{\numberline {1.2}Lagema\IeC {\ss }e}{3}
 \contentsline {subsection}{\numberline {1.3}Median}{3}
 \contentsline {subsection}{\numberline {1.4}Quantile}{3}
-\contentsline {subsection}{\numberline {1.5}Streuungsma\IeC {\ss }e}{3}
-\contentsline {subsubsection}{\numberline {1.5.1}Variationsbreite}{3}
+\contentsline {subsection}{\numberline {1.5}Streuungsma\IeC {\ss }e}{4}
+\contentsline {subsubsection}{\numberline {1.5.1}Variationsbreite}{4}
 \contentsline {subsubsection}{\numberline {1.5.2}Interquartilsabstand}{4}
 \contentsline {subsubsection}{\numberline {1.5.3}Quantilsabst\IeC {\"a}nde}{4}
 \contentsline {subsubsection}{\numberline {1.5.4}Varianz}{4}
@@ -18,7 +18,7 @@
 \contentsline {section}{\numberline {4}Varianz und Erwartungswert}{4}
 \contentsline {section}{\numberline {5}Verteilungen}{4}
 \contentsline {subsection}{\numberline {5.1}Binomialverteilung}{4}
-\contentsline {subsection}{\numberline {5.2}Poissionverteilung}{4}
+\contentsline {subsection}{\numberline {5.2}Poissionverteilung}{5}
 \contentsline {subsection}{\numberline {5.3}Gleichverteilung}{5}
 \contentsline {subsection}{\numberline {5.4}Normalverteilung}{5}
 \contentsline {subsubsection}{\numberline {5.4.1}Allgemein}{5}
