@@ -31,7 +31,7 @@ Merkmalen an, also $h_1^{rel} = \frac{1}{4} = 0,25, h_2^{rel} = \frac{2}{4} =
 Kumulierte Häufigkeit (Summe aller absoluten Häufigkeiten):
 $S_i=\sum\nolimits_{j=1}^{i} h_j$.\\
 relative kumulierte Häufigkeit: $S_i^{rel}=\sum\nolimits_{j=1}^{i} h_j^{rel}$.\\
-\newline
+\subsection{Lagemaße}
 Arithmetisches Mittel (Mittelwert): $\bar{x} = \frac{1}{n}
 \sum\nolimits_{j=1}^{n} x_j$\\
 \newline
@@ -41,7 +41,6 @@ x_j$ mit $W=\sum\nolimits_{j=1}^{n} w_j$. Siehe Bsp. 2.9 auf S. 14 \\
 \newline
 Geometrisches Mittel:
 $\bar{x}_{geo}=(\prod\nolimits_{j=1}^{n}x_j)^{\frac{1}{n}}$\\
-\newline
 \subsection{Median} Der Wert der in einer sortierten Reihe aller Daten genau in
 der Mitte liegt. \\
 Falls n ungerade: $\bar{x}_{med} = x_{\frac{n+1}{2}}$ \\
@@ -51,8 +50,29 @@ x_{(\frac{n}{2} + 1)})$ \\
 Das p-Quantil $\bar{x}_p$ einer Stichprobe ist der Wert, unterhalb dessen ein
 Anteil p aller Beobachtungen liegt. \\
 Oft verwendete Spezialfälle: \\
-
-\section{Bivarite Stichproben}
+Erstes Quartil $Q1 = x_i$ für $F(x_i) = 0.25$ \\
+Zweites Quartil $Q2 = x_i$ für $F(x_i) = 0.5$ \\
+Drittes Quartil $Q3 = x_i$ für $F(x_i) = 0.75$ \\
+\newline
+Für jedes p wird folgendermaßen vorgegangen: \\
+Falls $n\cdot p$ keine ganze Zahl: $\bar{x}_p = x_k$ wobei $k$ die
+unmittelbar auf $n\cdot p$ folgende ganze Zahl ist. \\
+Falls $n\cdot p$ ganzzahlig: $\bar{x}_p = \frac{1}{2}(x_k+x_{k+1})$ mit $k =
+n\cdot p$ \\
+\subsection{Streuungsmaße}
+\subsubsection{Variationsbreite}
+$r=max_ix_i - min_ix_i$
+\subsubsection{Interquartilsabstand}
+Die Differenz der Quartile 3 und 1 $I = Q3-Q1$
+\subsubsection{Quantilsabstände}
+$x_{1-p}-x_p$
+\subsubsection{Varianz}
+$s^2 = \frac{1}{n-1} \sum\nolimits_{i=1}^{n}(x_i-\bar{x})^2$
+\subsubsection{Standardabweichung}
+$s=\sqrt{s^2}$
+\subsubsection{Variationskoeffizient}
+$v=\frac{s}{\bar{x}}$
+\section{Bivariate Stichproben}
 \subsection{lineare Korelationskoeffizent}
 \subsection{Spearmensche Korelationskoeffizent}
 \section{Bedingte Warscheinlichkeit}

@@ -1,26 +1,34 @@
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Descriptive Statistik}{2}
 \contentsline {subsection}{\numberline {1.1}Absolute H\IeC {\"a}ufigkeit}{2}
-\contentsline {subsection}{\numberline {1.2}Median}{3}
-\contentsline {subsection}{\numberline {1.3}Quantile}{3}
-\contentsline {section}{\numberline {2}Bivarite Stichproben}{3}
-\contentsline {subsection}{\numberline {2.1}lineare Korelationskoeffizent}{3}
-\contentsline {subsection}{\numberline {2.2}Spearmensche Korelationskoeffizent}{3}
-\contentsline {section}{\numberline {3}Bedingte Warscheinlichkeit}{3}
-\contentsline {section}{\numberline {4}Varianz und Erwartungswert}{3}
-\contentsline {section}{\numberline {5}Verteilungen}{3}
-\contentsline {subsection}{\numberline {5.1}Binomialverteilung}{3}
+\contentsline {subsection}{\numberline {1.2}Lagema\IeC {\ss }e}{3}
+\contentsline {subsection}{\numberline {1.3}Median}{3}
+\contentsline {subsection}{\numberline {1.4}Quantile}{3}
+\contentsline {subsection}{\numberline {1.5}Streuungsma\IeC {\ss }e}{3}
+\contentsline {subsubsection}{\numberline {1.5.1}Variationsbreite}{3}
+\contentsline {subsubsection}{\numberline {1.5.2}Interquartilsabstand}{4}
+\contentsline {subsubsection}{\numberline {1.5.3}Quantilsabst\IeC {\"a}nde}{4}
+\contentsline {subsubsection}{\numberline {1.5.4}Varianz}{4}
+\contentsline {subsubsection}{\numberline {1.5.5}Standardabweichung}{4}
+\contentsline {subsubsection}{\numberline {1.5.6}Variationskoeffizient}{4}
+\contentsline {section}{\numberline {2}Bivariate Stichproben}{4}
+\contentsline {subsection}{\numberline {2.1}lineare Korelationskoeffizent}{4}
+\contentsline {subsection}{\numberline {2.2}Spearmensche Korelationskoeffizent}{4}
+\contentsline {section}{\numberline {3}Bedingte Warscheinlichkeit}{4}
+\contentsline {section}{\numberline {4}Varianz und Erwartungswert}{4}
+\contentsline {section}{\numberline {5}Verteilungen}{4}
+\contentsline {subsection}{\numberline {5.1}Binomialverteilung}{4}
 \contentsline {subsection}{\numberline {5.2}Poissionverteilung}{4}
-\contentsline {subsection}{\numberline {5.3}Gleichverteilung}{4}
-\contentsline {subsection}{\numberline {5.4}Normalverteilung}{4}
-\contentsline {subsubsection}{\numberline {5.4.1}Allgemein}{4}
-\contentsline {subsubsection}{\numberline {5.4.2}Standardnormalverteilung}{4}
-\contentsline {subsection}{\numberline {5.5}$\chi ^2-Verteilung$}{5}
-\contentsline {subsection}{\numberline {5.6}T-Verteilung}{5}
-\contentsline {section}{\numberline {6}Carakteristische Funktion}{5}
-\contentsline {section}{\numberline {7}Maximum-Likelihood-Methode (LM)}{5}
-\contentsline {section}{\numberline {8}Konvidenz intervalle}{5}
-\contentsline {section}{\numberline {9}Tests}{5}
-\contentsline {subsection}{\numberline {9.1}T-Test}{5}
-\contentsline {subsection}{\numberline {9.2}Biomial-Test}{5}
-\contentsline {subsection}{\numberline {9.3}$\chi ^2$-Test}{5}
+\contentsline {subsection}{\numberline {5.3}Gleichverteilung}{5}
+\contentsline {subsection}{\numberline {5.4}Normalverteilung}{5}
+\contentsline {subsubsection}{\numberline {5.4.1}Allgemein}{5}
+\contentsline {subsubsection}{\numberline {5.4.2}Standardnormalverteilung}{5}
+\contentsline {subsection}{\numberline {5.5}$\chi ^2-Verteilung$}{6}
+\contentsline {subsection}{\numberline {5.6}T-Verteilung}{6}
+\contentsline {section}{\numberline {6}Carakteristische Funktion}{6}
+\contentsline {section}{\numberline {7}Maximum-Likelihood-Methode (LM)}{6}
+\contentsline {section}{\numberline {8}Konvidenz intervalle}{6}
+\contentsline {section}{\numberline {9}Tests}{6}
+\contentsline {subsection}{\numberline {9.1}T-Test}{6}
+\contentsline {subsection}{\numberline {9.2}Biomial-Test}{6}
+\contentsline {subsection}{\numberline {9.3}$\chi ^2$-Test}{6}

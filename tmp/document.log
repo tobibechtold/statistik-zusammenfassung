@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.9.10)  26 NOV 2013 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.9.10)  26 NOV 2013 16:55
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -357,60 +357,61 @@ So I'll assume that you meant to type \cr instead.
 \openout3 = `document.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--45
+Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 45--50
+Underfull \hbox (badness 10000) in paragraph at lines 35--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--54
+Underfull \hbox (badness 10000) in paragraph at lines 35--44
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--62
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--62
+
+ []
+
+[3]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -418,36 +419,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.64 \newline
+l.84 \newline
               $P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
-
- []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
@@ -460,26 +436,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--89
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--99
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--117
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
-[4] [5] (./document.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--137
+
+ []
+
+[5] [6] (./document.aux) ) 
 Here is how much of TeX's memory you used:
  1614 strings out of 493315
  18535 string characters out of 6141455
@@ -502,10 +503,10 @@ c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
 2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2013/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on document.pdf (5 pages, 177779 bytes).
+Output written on document.pdf (6 pages, 183546 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
+ 83 PDF objects out of 1000 (max. 8388607)
+ 59 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
