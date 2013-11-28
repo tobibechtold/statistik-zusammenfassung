@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.9.10)  26 NOV 2013 16:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/W32TeX) (format=pdflatex 2013.9.10)  28 NOV 2013 15:59
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -356,7 +356,7 @@ So I'll assume that you meant to type \cr instead.
 \tf@toc=\write3
 \openout3 = `document.toc'.
 
-
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
@@ -381,7 +381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--34
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 35--44
 
  []
@@ -412,101 +412,93 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--62
  []
 
 [3]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.84 \newline
-              $P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 86--99
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--119
+Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--122
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--132
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--137
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
-[5] [6] (./document.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--153
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--171
+
+ []
+
+[6] (./document.aux) ) 
 Here is how much of TeX's memory you used:
  1614 strings out of 493315
  18535 string characters out of 6141455
- 83788 words of memory out of 5000000
+ 82788 words of memory out of 5000000
  5083 multiletter control sequences out of 15000+600000
  9709 words of font info for 35 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  27i,11n,23p,231b,200s stack positions out of 5000i,500n,10000p,200000b,80000s
-<c:/texlive/2013/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texliv
-e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
-c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/
-2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2013/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on document.pdf (6 pages, 183546 bytes).
+<c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><c:/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2013/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2013/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+><c:/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2013/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy6.pfb><c:/texlive/2013/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy8.pfb>
+Output written on document.pdf (6 pages, 195978 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 87 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
