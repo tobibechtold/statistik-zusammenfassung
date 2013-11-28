@@ -123,6 +123,43 @@ $\sigma = \pm 1$
 \section{Konvidenz intervalle}
 \section{Tests}
 \subsection{T-Test}
+Bei einer Befragung gaben 10 Studenten an: 26,26,24,28,20,30,22,28 SWS (Semester Wochenstunden) zu belegen.
+
+$\mu = \frac {1} {n} \sum x_i = 25$
+\begin{enumerate}
+  \item Hypotese aufstellen:\\
+     Man vesucht diese Hypotese zu wiederlegen $=>$ Die Hypotese muss das Gegenteil sein, was man beweisen will.
+     \begin {itemize}
+       \item Ein Mittelwert soll größer als ein betimmter Wert sein:\\
+         Prüfen Sie das Studenten im Mittel mehr als 21.1 Semester Wochenstunden belegen.\\
+         $=> H_0 = \mu \leq 21.1$
+       \item Ein Mittelwert soll kleiner als ein bestimmer Wert sein:\\
+         Prüfen Sie das Studenten im Mittel weniger als 21.1 SWS belegen\\
+         $=> H_0 = \mu \geq 21.1$
+       \item Ein Mittelwert soll nicht Signifikant von einem Wert abweichen.\\
+         Prüfen Sie das Studenten im Mittel 21.1 SWS belegen.\\
+         $=> H_0 = \mu = 21.1$
+     \end{itemize}
+
+   \item Erwarteter Wert ausrechen: \\
+     \begin {itemize}
+       \item
+         Wenn die Varianz gegeben ist ist die Variable Standartnormalverteilt($N(0,1)$ 
+       \item 
+         Wenn man die Varianz selber aus Daten berechent ist die Variable T-verteilt.\\
+         $s^2 = \frac 1 {n-1} \sum_{i = 0} ^ n (x_i - \mu) ^2$\\
+       $s_n^2 = \frac {s^2} n$
+
+         Im Bsp: 
+
+         $s^2 = \frac 1 {n-1} (26 - 25)^2 +(26 - 25)^2 + (24 - 25)^2 + ..  = $\\
+         $      \frac 1 {9} 90 = 10$\\
+         $s_n^2 = \frac {10} {10} = 1$
+
+     \end {itemize}
+
+     $ t_{expect} = \frac{\bar{x} - \mu} { \sqrt{s_n^2}}$
+\end{enumerate}
 \subsection{Biomial-Test}
 \subsection{$\chi^2$-Test}
 
