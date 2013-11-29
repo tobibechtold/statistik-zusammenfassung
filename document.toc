@@ -1,0 +1,23 @@
+\select@language {ngerman}
+\contentsline {section}{\numberline {1}Descriptive Statistik}{2}
+\contentsline {section}{\numberline {2}Bivarite Stichproben}{3}
+\contentsline {subsection}{\numberline {2.1}lineare Korelationskoeffizent}{3}
+\contentsline {subsection}{\numberline {2.2}Spearmensche Korelationskoeffizent}{3}
+\contentsline {section}{\numberline {3}Bedingte Warscheinlichkeit}{3}
+\contentsline {section}{\numberline {4}Varianz und Erwartungswert}{3}
+\contentsline {section}{\numberline {5}Verteilungen}{3}
+\contentsline {subsection}{\numberline {5.1}Binomialverteilung}{3}
+\contentsline {subsection}{\numberline {5.2}Poissionverteilung}{3}
+\contentsline {subsection}{\numberline {5.3}Gleichverteilung}{4}
+\contentsline {subsection}{\numberline {5.4}Normalverteilung}{4}
+\contentsline {subsubsection}{\numberline {5.4.1}Allgemein}{4}
+\contentsline {subsubsection}{\numberline {5.4.2}Standardnormalverteilung}{4}
+\contentsline {subsection}{\numberline {5.5}$\chi ^2-Verteilung$}{4}
+\contentsline {subsection}{\numberline {5.6}T-Verteilung}{4}
+\contentsline {section}{\numberline {6}Carakteristische Funktion}{4}
+\contentsline {section}{\numberline {7}Maximum-Likelihood-Methode (LM)}{4}
+\contentsline {section}{\numberline {8}Konvidenz intervalle}{4}
+\contentsline {section}{\numberline {9}Tests}{4}
+\contentsline {subsection}{\numberline {9.1}T-Test}{4}
+\contentsline {subsection}{\numberline {9.2}Biomial-Test}{5}
+\contentsline {subsection}{\numberline {9.3}$\chi ^2$-Test}{5}
