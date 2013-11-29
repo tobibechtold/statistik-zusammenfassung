@@ -4,17 +4,18 @@
 \usepackage{paralist}
 \usepackage[utf8]{inputenc}
 \usepackage{fullpage}
-\author{Jannis Hübl & Tobias Bechtold}
 \title{Zusammenfassung Statistik}
+\author{Jannis Hübl & Tobias Bechtold}
 \date{November 2013}
 
 \begin{document}
 \maketitle
 \newpage
 \tableofcontents
-
+\newpage
 \section{Descriptive Statistik}
-Absolute Häufigkeit: Anzahl der Ausprägungen in einem Intervall. \\
+\subsection{Absolute Häufigkeit}
+Anzahl der Ausprägungen in einem Intervall.\\
 Bsp.: $x_1=28, x_2=30, x_3=30, x_4=32$ \\
 \newline
 Diese Ausprägungen teilen wir nun in folgende Intervalle ein: \\
@@ -30,25 +31,103 @@ Merkmalen an, also $h_1^{rel} = \frac{1}{4} = 0,25, h_2^{rel} = \frac{2}{4} =
 Kumulierte Häufigkeit (Summe aller absoluten Häufigkeiten):
 $S_i=\sum\nolimits_{j=1}^{i} h_j$.\\
 relative kumulierte Häufigkeit: $S_i^{rel}=\sum\nolimits_{j=1}^{i} h_j^{rel}$.\\
-\newline
+\subsection{Lagemaße}
 Arithmetisches Mittel (Mittelwert): $\bar{x} = \frac{1}{n}
 \sum\nolimits_{j=1}^{n} x_j$\\
 \newline
 Gewichtetes arithmetisches Mittel: einzelne Werte werden mit der jeweiligen
 Gruppengröße $w_j$ gewichtet: $\bar{x}=\frac{1}{W}\sum\nolimits_{j=1}^{n}w_j
-x_j$ mit $W=\sum\nolimits_{j=1}^{n} w_j$. Siehe Bsp. 2.9 auf S. 14
+x_j$ mit $W=\sum\nolimits_{j=1}^{n} w_j$. Siehe Bsp. 2.9 auf S. 14 \\
 \newline
-\section{Bivarite Stichproben}
+Geometrisches Mittel:
+$\bar{x}_{geo}=(\prod\nolimits_{j=1}^{n}x_j)^{\frac{1}{n}}$\\
+\subsection{Median} Der Wert der in einer sortierten Reihe aller Daten genau in
+der Mitte liegt. \\
+Falls n ungerade: $\bar{x}_{med} = x_{\frac{n+1}{2}}$ \\
+Falls n gerade: $\bar{x}_{med} = \frac{1}{2} \cdot (x_{\frac{n}{2}} +
+x_{(\frac{n}{2} + 1)})$ \\ 
+\subsection{Quantile}
+Das p-Quantil $\bar{x}_p$ einer Stichprobe ist der Wert, unterhalb dessen ein
+Anteil p aller Beobachtungen liegt. \\
+Oft verwendete Spezialfälle: \\
+Erstes Quartil $Q1 = x_i$ für $F(x_i) = 0.25$ \\
+Zweites Quartil $Q2 = x_i$ für $F(x_i) = 0.5$ \\
+Drittes Quartil $Q3 = x_i$ für $F(x_i) = 0.75$ \\
+\newline
+Für jedes p wird folgendermaßen vorgegangen: \\
+Falls $n\cdot p$ keine ganze Zahl: $\bar{x}_p = x_k$ wobei $k$ die
+unmittelbar auf $n\cdot p$ folgende ganze Zahl ist. \\
+Falls $n\cdot p$ ganzzahlig: $\bar{x}_p = \frac{1}{2}(x_k+x_{k+1})$ mit $k =
+n\cdot p$ \\
+\subsection{Streuungsmaße}
+\subsubsection{Variationsbreite}
+$r=max_ix_i - min_ix_i$
+\subsubsection{Interquartilsabstand}
+Die Differenz der Quartile 3 und 1 $I = Q3-Q1$
+\subsubsection{Quantilsabstände}
+$x_{1-p}-x_p$
+\subsubsection{Varianz}
+$s^2 = \frac{1}{n-1} \sum\nolimits_{i=1}^{n}(x_i-\bar{x})^2$
+\subsubsection{Standardabweichung}
+$s=\sqrt{s^2}$
+\subsubsection{Variationskoeffizient}
+$v=\frac{s}{\bar{x}}$
+\section{Bivariate Stichproben}
+\subsection{Kovarianz}
+Die empirische Kovarianz $s_{xy}$ ist ein Maß für den Zusammenhang
+zweier streuender Variablen $x$ und $y$. \\
+\newline
+$s_{x,y}=\frac{\sum\nolimits_{i=1}^{n}(x_i - \bar{x})(y_i - \bar{y})}{n-1}$
 \subsection{lineare Korelationskoeffizent}
-\subsection{Spearmensche Korelationskoeffizent}
+$r_{xy} = \frac{s_{xy}}{s_{x}\cdot s_{y}} =
+\frac{\sum\nolimits_{i=1}^{n}(x_i-\bar{x})(y_i-\bar{y})}{\sqrt{\sum\nolimits_{i=1}^{n}(x_i-\bar{x})^2
+\cdot \sum\nolimits_{i=1}^{n}(y_i-\bar{y})^2}}$
+\subsection{Spearmanscher Rangkorrelationskoeffizent}
+$r_s = 1-\frac{6\sum\nolimits_{i=1}^{n}(r_{x,i}-r_{y,i})^2}{n(n^2-1)}$ \\
+\newline
+Beispiel: Zwei Messreihen $x$ und $y$: \\
+\begin{tabular}{l r}
+$(0,1,2,3)_x $ & $(8,5,0,1)_y $ \\
+\end{tabular} \\
+Anhand der Reihenfolge legen wir die Rangzahlen $r_{x,i}$ und $r_{y,i}$
+folgendermaßen fest: \\
+\begin{tabular}{l r}
+$(1,2,3,4)_x $ & $(4,3,1,2)_y $ \\
+\end{tabular} \\
+Jetzt setzen wir die Rangzahlen in die Formel ein: \\
+$r_s = 1-\frac{6(3^2+1^2+2^2+2^2)}{4(4^2-1)} = -0.8$
+\newpage
 \section{Bedingte Warscheinlichkeit}
+Bedingte Wahrscheinlichkeit ist das Eintreten eines Ereignisses A unter der
+Vorraussetzung, dass das Ereignis B bereits vorher eingetreten ist. \\
+Beispiel: Mit welcher Wahrscheinlichkeit ziehe ich aus nem Kartenspiel eine 7
+wenn vorher eine Zahl gezogen wurde? \\
+Es wird geschrieben $P(\mathcal{A}|\mathcal{B})$ (lies: P von $\mathcal{A}$
+unter der Voraussetzung $\mathcal{B}$). \\
+Beispiel: Wie hoch ist die Wahrscheinlichkeit eine Augenzahl kleiner als 4 zu
+würfeln, wenn bekannt ist, dass eine ungerade Augenzahl gewürfelt worden ist? \\
+Es ist $P(\mathcal{A}|\mathcal{B})$ zu berechnen mit $\mathcal{A} = \{1,2,3\}$,
+$P(\mathcal{A})= 0.5$ und $\mathcal{B} = \{ 1,3,5\},
+P(\mathcal{B})=0.5$.
+Es gilt $P(\mathcal{A}\cap \mathcal{B}) = P(\{ 1,3\}) =
+\frac{1}{3}$, und ergibt sich $P(\mathcal{A}|\mathcal{B})= \frac{2}{3}$.
 \section{Varianz und Erwartungswert}
+Das arithmetische Mittel einer Zufallsvariablen $x$ heißt Erwartungswert und ist
+gegeben durch \\
+$E(x)=\sum\limits_{(i)}x_if(x_i)$ (diskret) bzw. $E(x) =
+\int_{-\infty}^{\infty}xf(x)dx$ (kontinuierlich). \\
+Für die Berechnung von Mittelwert und Varianz von Wahrscheinlichkeitsfunktionen
+gilt somit für diskrete Verteilungen \\
+$\mu = E(x)=\sum\limits_{(i)}x_if(x_i)$ \\
+$\sigma^2 = V(x)=E((x-\mu)^2) = \sum\limits_{(i)}(x_i-\mu)^2f(x_i)$ \\ 
+und für kontinuierliche Verteilungen \\
+$\mu = E(x)=\int_{-\infty}^{\infty}xf(x)dx$ \\
+$\sigma^2 = V(x) = E((x-\mu)^2) = \int_{-\infty}^{\infty}(x-\mu)^2f(x)dx$.
 \section{Verteilungen}
 \subsection{Binomialverteilung}
-Warscheinlichkeit:
-
-\newline $P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$
-\newline\newline Warscheinlichkeitsdichte:
+Warscheinlichkeit:\\
+$P(x=k) = \binom{n}{k} p^k (1-p)^{n-k}$ \\
+Warscheinlichkeitsdichte:
 
 $f(x) = \binom{n}{x} p^x(1-p)^{n-x}$
 \newline\newline Erwartungswert:
